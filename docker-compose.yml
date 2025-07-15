@@ -1,0 +1,19 @@
+services:
+  api01:
+    build:
+      context: ./api01
+      dockerfile: DockerFile
+    ports:
+      - "8000:8000"
+    depends_on:
+      - api02
+    environment:
+      - API2_HOST=api02
+      - API2_PORT=8001
+
+  api02:
+    build:
+      context: ./api02
+      dockerfile: DockerFile
+    ports:
+      - "8001:8001"
