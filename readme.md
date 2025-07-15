@@ -1,4 +1,4 @@
-# MLOps API Relay Demo
+# How to run our API
 
 This project demonstrates a simple API-to-API call setup using FastAPI, intended as a starting point for an end-to-end ML pipeline.
 
@@ -8,11 +8,11 @@ This project demonstrates a simple API-to-API call setup using FastAPI, intended
 ai_benchmark-quiz/
 ├── api1/
 │   ├── main.py
-│   ├── Dockerfile
+│   ├── DockerFile
 │   └── requirements.txt
 ├── api2/
 │   ├── main.py
-│   ├── Dockerfile
+│   ├── DockerFile
 │   └── requirements.txt
 ├── docker-compose.yml
 └── README.md
