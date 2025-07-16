@@ -5,7 +5,7 @@ This project demonstrates a simple API-to-API call setup using FastAPI, intended
 ## 🧱 Project Structure
 
 ```
-ai_benchmark-quiz/
+ai4thai-quiz/
 ├── api1/
 │   ├── main.py
 │   ├── DockerFile
